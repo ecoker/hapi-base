@@ -4,6 +4,6 @@ module.exports = [
   {
     method: 'GET',
     path: '/example',
-    handler: ExampleController.list,
+    handler: ExampleController.demo,
   },
 ]
