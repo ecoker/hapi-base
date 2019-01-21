@@ -6,5 +6,5 @@ module.exports = {
     credentials: true,
   },
   HOST: 'localhost',
-  PORT: 4444,
+  PORT: process.env.PORT || 1234,
 }
