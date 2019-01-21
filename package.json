@@ -1,0 +1,30 @@
+{
+  "name": "elastic-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon app.js",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "Ehren Coker",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^8.1.2",
+    "hapi": "^17.7.0",
+    "hapi-good-winston": "^2.1.0",
+    "lodash": "^4.17.11",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^1.18.6"
+  }
+}
