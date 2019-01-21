@@ -5,6 +5,7 @@ This is a bare-bones API starter for Hapi. It has the basics you need to get goi
 2) Controllers
 3) CORs
 4) Logging (Winston)
+5) Linting
 
 ---
 
@@ -44,6 +45,22 @@ Winston is pretty great. If you have Splunk, I'd recommend you wire it up to sen
 
 In all environments, it will add to the [combined.log](logs/combined.log) and [error.log](logs/error.log) files so you can dig around if things are going haywire.
 
+### Linting
+This extends the `airbnb` standards for eslint. I tend to go back and forth between that library and `prettier`. You can run linting using npm:
+```
+npm lint
+# OR
+npm lint:fix
+```
+
 ---
+
+## Installation
+You can clone down this repo and add your own name for the folder by using this command:
+```
+git clone git@github.com:ecoker/hapi-base.git your-project-name
+# OR
+git clone https://github.com/ecoker/hapi-base.git your-project-name
+```
 
 **Note:** This is really set up for me to quickly create new APIs for testing and exploring. Feel free to use it, but know that it will continue to be updated as needs/standards change.
