@@ -1,5 +1,5 @@
 {
-  "name": "elastic-api",
+  "name": "hapi-base",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
